@@ -1,0 +1,40 @@
+sourceFile: src/task.py
+
+limits:
+  time: 15000
+  memory: 256000
+
+tasks:
+  task_1:
+    testedFunctionName: task_1
+    userInputFilename: slowa.txt
+    userOutputFilename: wyniki.txt
+    checkTypes:
+      FAST:
+        inputFilesDirectory: tests/task_1/fast/in
+        outputFilesDirectory: tests/task_1/fast/out
+      FULL:
+        inputFilesDirectory: tests/task_1/full/in
+        outputFilesDirectory: tests/task_1/full/out
+  task_2:
+    testedFunctionName: task_2
+    userInputFilename: slowa.txt
+    userOutputFilename: wyniki.txt
+    checkTypes:
+      FAST:
+        inputFilesDirectory: tests/task_2/fast/in
+        outputFilesDirectory: tests/task_2/fast/out
+      FULL:
+        inputFilesDirectory: tests/task_2/full/in
+        outputFilesDirectory: tests/task_2/full/out
+  task_3:
+    testedFunctionName: task_3
+    userInputFilename: slowa.txt
+    userOutputFilename: wyniki.txt
+    checkTypes:
+      FAST:
+        inputFilesDirectory: tests/task_3/fast/in
+        outputFilesDirectory: tests/task_3/fast/out
+      FULL:
+        inputFilesDirectory: tests/task_3/full/in
+        outputFilesDirectory: tests/task_3/full/out
